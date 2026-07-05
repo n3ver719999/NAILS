@@ -1,12 +1,36 @@
 {
   "expo": {
-    "extra": {
-      "eas": {
-        "projectId": "5215ebd4-babd-4bda-b05d-cddc76c6c6fc"
-      }
+    "name": "MusicPlayer",
+    "slug": "musicplayer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "backgroundColor": "#121212"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nailsinmyeyes.musicplayer"
     },
     "android": {
-      "package": "com.nailsinmyeyes.musicplayer"
-    }
+      "package": "com.nailsinmyeyes.musicplayer",
+      "adaptiveIcon": {
+        "backgroundColor": "#121212"
+      },
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "READ_MEDIA_AUDIO"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6d9937c0-07a3-4967-9bf2-6ff70b158993"
+      }
+    },
+    "plugins": [
+      "expo-av",
+      "expo-media-library"
+    ]
   }
 }

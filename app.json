@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "5215ebd4-babd-4bda-b05d-cddc76c6c6fc"
+      }
+    },
+    "android": {
+      "package": "com.nailsinmyeyes.musicplayer"
+    }
+  }
+}
